@@ -1,0 +1,10 @@
+[project]
+name = "ai-devops-incident-response-agent"
+version = "0.1.0"
+description = "Production-grade AI DevOps Incident Response Agent / SRE Copilot"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
